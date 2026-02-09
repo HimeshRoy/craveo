@@ -1,0 +1,627 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff8f0;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #fff8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.signin {
+    margin-right: 20px;
+}
+
+.signin button {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #c62828;
+    color: #ffffff;
+}
+
+.signin button:hover {
+    cursor: pointer;
+    background-color: #b71c1c;
+}
+
+/* main */
+
+main {
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: #fff8f0;
+}
+
+.sidebar {
+    background-color: #fff8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #c62828;
+    padding: 8px 0px;
+    margin: 30px 20px;
+    font-size: 2rem;
+}
+
+.sidebar a span {
+    display: none;
+}
+
+.sidebar a:hover {
+    cursor: pointer;
+    color: #c24848;
+}
+
+.hero-section .hero-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-img {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/craveo/heroImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.hero-text div button {
+    width: 40%;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: #c62828;
+    color: #ffffff;
+}
+
+.hero-text div button:hover {
+    cursor: pointer;
+    background-color: #b71c1c;
+}
+.catagories div:hover{
+    cursor: pointer;
+}
+.catagories .burgers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.catagories .burgers .b-div {
+    margin: 1rem;
+    width: 295px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.catagories .burgers div span {
+    padding: 10px;
+    text-align: start;
+}
+
+.catagories .burgers .b-div .img1 {
+    background-image: url(https://blog.swiggy.com/wp-content/uploads/2025/01/Image-1_-cheese-burger.png);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .burgers .b-div .img2 {
+    background-image: url(https://blog.swiggy.com/wp-content/uploads/2025/01/Image-2_-veggie-burger.png);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .burgers .b-div .img3 {
+    background-image: url(https://blog.swiggy.com/wp-content/uploads/2025/01/Image-3_-turkey-burger.png);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .burgers .b-div .img4 {
+    background-image: url(https://blog.swiggy.com/wp-content/uploads/2025/01/Image-5_-salmon-burger-1024x538.png);
+   width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .pizza {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.catagories .pizza .p-div {
+    margin: 1rem;
+    width: 295px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.catagories .pizza div span {
+    padding: 10px;
+    text-align: start;
+}
+
+.catagories .pizza .p-div .img1 {
+    background-image: url(https://www.chefspencil.com/wp-content/uploads/Neapolitan-Pizza.jpg.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .pizza .p-div .img2 {
+    background-image: url(https://www.chefspencil.com/wp-content/uploads/Pizza-Margherita.jpg.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .pizza .p-div .img3 {
+    background-image: url(https://www.chefspencil.com/wp-content/uploads/Marinara-Pizza.jpg.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .pizza .p-div .img4 {
+    background-image: url(https://www.chefspencil.com/wp-content/uploads/Sicilian-Pizza.jpg.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+
+
+.catagories .indian {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.catagories .indian .in-div {
+    margin: 1rem;
+    width: 295px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.catagories .indian div span {
+    padding: 10px;
+    text-align: start;
+}
+
+.catagories .indian .in-div .img1 {
+    background-image: url(https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/masala-dosa-1733153567.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .indian .in-div .img2 {
+    background-image: url(https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/vindaloo-1733153567.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .indian .in-div .img3 {
+    background-image: url(https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/palak-paneer-1733153567.webp);
+   width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .indian .in-div .img4 {
+    background-image: url(https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/biryani-1733153567.webp);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+
+.catagories .desserts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.catagories .desserts .d-div {
+    margin: 1rem;
+    width: 295px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.catagories .desserts div span {
+    padding: 10px;
+    text-align: start;
+}
+
+.catagories .desserts .d-div .img1 {
+    background-image: url(https://bakewithzoha.com/wp-content/uploads/2025/10/cheesecake-slice-featured.jpg);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .desserts .d-div .img2 {
+    background-image: url(https://homegrownhappiness.com/wp-content/uploads/2020/12/sourdough-peach-cobbler-recipe-biscuits.jpg);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .desserts .d-div .img3 {
+    background-image: url(https://handletheheat.com/wp-content/uploads/2022/06/angel-food-cake-recipe-SQUARE.jpg);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.catagories .desserts .d-div .img4 {
+    background-image: url(https://chefaj.com/wp-content/uploads/2024/10/Pecan-Pie-scaled-e1728417707958.jpg);
+    width: 295px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.footer {
+    background: #8E1B1B;
+    color: white;
+    padding: 40px 80px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer a {
+    color: #FFCDD2;
+    display: block;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 450px) {
+
+    /* header */
+    header {
+        width: 100%;
+        padding: 5px 0px;
+        background-color: #c62828;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .logo img {
+        width: 40%;
+    }
+
+    .signin {
+        margin-right: 20px;
+    }
+
+    .signin button {
+        border: 0;
+        width: 80px;
+        border-radius: 10px;
+        padding: 5px 6px;
+        /* font-size: 1rem; */
+        background-color: #fff8f0;
+        color: #c62828;
+    }
+
+    main {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        background-color: #d67575;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #fff8f0;
+        padding: 8px 0px;
+        margin: 8px 10px;
+        font-size: 1.2rem;
+    }
+
+    .hero-section .hero-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section {
+        scroll-behavior: smooth;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 30vh;
+        background-image: url(/craveo/heroImg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-text div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .hero-text div button {
+        width: 35%;
+        padding: 8px 12px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: 0;
+        background-color: #c62828;
+        color: #ffffff;
+    }
+
+    .catagories .burgers {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .catagories .burgers .b-div {
+        width: 90%;
+        height: 300px;
+    }
+
+    .catagories .burgers .b-div .img1,
+    .catagories .burgers .b-div .img2,
+    .catagories .burgers .b-div .img3,
+    .catagories .burgers .b-div .img4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .catagories h1, .catagories strong {
+        margin-left: 10px;
+    }
+
+    .catagories .pizza {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .catagories .pizza .p-div {
+        width: 90%;
+        height: 300px;
+    }
+
+    .catagories .pizza .p-div .img1,
+    .catagories .pizza .p-div .img2,
+    .catagories .pizza .p-div .img3,
+    .catagories .pizza .p-div .img4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .catagories .indian {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .catagories .indian .in-div {
+        width: 90%;
+        height: 300px;
+    }
+
+    .catagories .indian .in-div .img1,
+    .catagories .indian .in-div .img2,
+    .catagories .indian .in-div .img3,
+    .catagories .indian .in-div .img4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .catagories .desserts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .catagories .desserts .d-div {
+        width: 90%;
+        height: 300px;
+    }
+
+    .catagories .desserts .d-div .img1,
+    .catagories .desserts .d-div .img2,
+    .catagories .desserts .d-div .img3,
+    .catagories .desserts .d-div .img4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+}
